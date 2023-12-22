@@ -1,0 +1,28 @@
+{
+  "name": "mc-c-notifications",
+  "private": false,
+  "version": "0.0.2",
+  "main": "dist/mc-c-notifications.es.js",
+  "exports": {
+    ".": "./dist/mc-c-notifications.es.js"
+  },
+  "types": "types/notifications.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@maersk-global/mds-components-utils": "^2.24.4",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.15",
+    "sass": "^1.56.2",
+    "sass-loader": "^10.1.0"
+  }
+}
