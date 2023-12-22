@@ -1,12 +1,13 @@
 {
-  "name": "mc-c-notifications",
+  "name": "my-web-components",
+  "author": "Mokshith Ajalade",
   "private": false,
-  "version": "0.0.2",
-  "main": "dist/mc-c-notifications.es.js",
+  "version": "1.0.0",
+  "main": "dist/my-web-components.es.js",
   "exports": {
-    ".": "./dist/mc-c-notifications.es.js"
+    ".": "./dist/my-web-components.es.js"
   },
-  "types": "types/notifications.d.ts",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
     "types"
@@ -16,13 +17,10 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "@maersk-global/mds-components-utils": "^2.24.4",
     "lit": "^2.0.2"
   },
   "devDependencies": {
     "typescript": "^4.5.4",
-    "vite": "^2.9.15",
-    "sass": "^1.56.2",
-    "sass-loader": "^10.1.0"
+    "vite": "^2.9.15"
   }
 }
